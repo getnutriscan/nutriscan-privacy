@@ -65,6 +65,11 @@
     border-left: 3px solid var(--accent);
     padding: 20px 22px; border-radius: 12px; margin: 28px 0 8px;
   }
+  .note {
+    font-size: 15px; color: var(--muted);
+    background: var(--accent-soft); border-radius: 10px;
+    padding: 14px 18px; margin: 18px 0;
+  }
   .contact {
     background: var(--card); border: 1px solid var(--line);
     border-radius: 14px; padding: 24px 26px; margin-top: 14px;
@@ -82,80 +87,101 @@
 <div class="wrap">
   <div class="badge"><span class="dot"></span> NutriScan</div>
   <h1>Privacy Policy</h1>
-  <p class="sub">NutriScan: Food &amp; Nutrition</p>
-  <p class="updated">Last updated: June 4, 2026</p>
- 
-  <p class="lead">NutriScan helps you scan and log your food, track nutrition toward your goals, and find food resources near you. This policy explains what information the app collects, how it's used, and the choices you have. We aim to collect only what the app needs to work, and we never sell your personal information.</p>
- 
+  <p class="sub">NutriScan: Food &amp; Nutrition — for Type 1 diabetes</p>
+  <p class="updated">Last updated: [PUBLISH DATE]</p>
+
+  <p class="lead">NutriScan helps people living with Type 1 diabetes count carbs, log glucose and insulin, learn how foods affect their blood sugar, and find food resources nearby. This policy explains what the app collects, how it's used, and the choices you have. We collect only what the app needs to work, we <strong>never sell</strong> your personal information, and we <strong>never use your health data for advertising</strong>.</p>
+
   <hr />
- 
+
   <h2>Who we are</h2>
   <p>NutriScan: Food &amp; Nutrition (“NutriScan,” “we,” “us”) is operated by Nuv Ahuja. If you have any questions about this policy or your data, you can reach us at <a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a>.</p>
- 
+  <p>NutriScan is intended for users <strong>16 and older</strong> and is not directed to children under 13.</p>
+
   <h2>Information we collect</h2>
- 
+
   <h3>Account information</h3>
   <p>When you create an account, we collect your <strong>name, email address, and password</strong>. Your password is never stored in plain text — it is converted into a secure, irreversible hash before it is saved.</p>
- 
+
+  <h3>Diabetes and health data you enter</h3>
+  <p>NutriScan lets you record <strong>blood glucose readings, insulin doses, carbohydrate and meal logs, injection/infusion site and CGM sensor changes</strong>, and the settings in your profile (such as diabetes type, glucose units, target glucose range, insulin regimen, CGM source, and any medical notes you choose to add). We store this so the app can show your history, build your Food Playbook, and keep your data in sync across your devices.</p>
+
+  <h3>Apple Health (HealthKit) data</h3>
+  <p>With your permission, NutriScan reads <strong>blood glucose and activity data</strong> from Apple Health so the app can build your per-food glucose history and trends. You can grant or revoke this access at any time in iOS Settings &rarr; Health. See the dedicated section below for how this data is handled.</p>
+
   <h3>Food photos and descriptions</h3>
-  <p>When you scan a meal, the <strong>photo you capture or upload</strong> — or the <strong>text description</strong> you type — is sent to our AI analysis provider to estimate the food's nutritional content (calories, protein, carbohydrates, and fat). These images and descriptions are processed to generate your results and are not used by us to identify you.</p>
- 
-  <h3>Nutrition and meal data</h3>
-  <p>We store the meals you log, their estimated nutrition values, and the goal and profile details you provide (such as your dietary goal). This lets us show your history and keep your data in sync across your devices.</p>
- 
+  <p>When you scan a meal, the <strong>photo you capture or upload</strong> — or the <strong>text description</strong> you type — is sent to our AI provider to estimate the food's nutritional content (calories, protein, carbohydrates, and fat). The same applies to recipe requests in NutriScan Pro. These images and descriptions are processed to generate your results and are not used by us to identify you.</p>
+
   <h3>Approximate location</h3>
   <p>If you use the <strong>Care Center</strong> to find nearby food assistance and fresh-food resources, the app uses your device location (or a ZIP code you enter) to search for places near you. This location is sent to our maps provider to return nearby results. We use it to fulfill your search and do not store your precise location on our servers. Places you “save” for later are stored only on your device.</p>
- 
+
+  <h3>Subscription information</h3>
+  <p>NutriScan offers an optional <strong>NutriScan Pro</strong> subscription. Purchases are processed by Apple, and subscription status is managed through our payments provider (RevenueCat). We receive your subscription status and related identifiers — not your payment card details, which are handled by Apple.</p>
+
+  <h3>Advertising data</h3>
+  <p>On the free tier, you can choose to watch a <strong>rewarded video ad</strong> to unlock a day of Pro features. These ads are served by Google AdMob, which may collect device and advertising identifiers and basic device information to deliver and measure ads. We use <strong>[non-personalized / personalized — CONFIRM]</strong> ads. [If you serve personalized ads, you must present Apple's App Tracking Transparency prompt and disclose tracking.]</p>
+
   <h3>Technical information</h3>
   <p>Like most apps, our servers automatically receive basic technical information (such as connection data) needed to operate the service securely and reliably.</p>
- 
+
   <h2>How we use your information</h2>
   <ul>
     <li>To create and secure your account and sign you in.</li>
-    <li>To analyze your food photos and descriptions and return nutrition estimates.</li>
-    <li>To save and sync your meals, macros, and goals across your devices.</li>
+    <li>To analyze your food photos and descriptions and return nutrition estimates, and to generate recipes in NutriScan Pro.</li>
+    <li>To save and sync your meals, carbs, glucose, insulin, and site/sensor logs across your devices.</li>
     <li>To help you find food resources near you when you use the Care Center.</li>
+    <li>To process and verify your NutriScan Pro subscription, and to grant a one-time ad-supported Pro day if you choose it.</li>
     <li>To send account-related emails, such as password-reset codes.</li>
     <li>To maintain, protect, and improve the reliability and security of the app.</li>
   </ul>
- 
+  <p><strong>Your diabetes and health data is used only to provide the app's features. We never sell it, and we never use it — or any data obtained from Apple Health — for advertising or marketing.</strong></p>
+
+  <h2>Apple HealthKit</h2>
+  <p>Data obtained through Apple Health (HealthKit) is used solely to provide in-app functionality, such as your Food Playbook, glucose trends, and summaries. It is <strong>not</strong> used for advertising or marketing, is <strong>not</strong> sold, is <strong>not</strong> shared with third parties for those purposes, and is <strong>not</strong> used to train machine-learning models. You control this access through the iOS Health app. [Confirm each of these statements is true of your implementation before publishing.]</p>
+
   <h2>How your information is shared</h2>
-  <p>We do not sell your personal information, and we do not show ads. We share information only with the service providers that make the app function, and only as needed:</p>
+  <p>We do not sell your personal information. We share information only with the service providers that make the app function, and only as needed:</p>
   <ul>
-    <li><strong>Google (Gemini AI)</strong> — receives the food photos or descriptions you submit in order to analyze them and return nutrition estimates.</li>
+    <li><strong>Google (Gemini AI)</strong> — receives the food photos, descriptions, or recipe requests you submit (with limited profile context) to analyze them and return nutrition and recipe estimates.</li>
     <li><strong>Google Maps Platform (Places)</strong> — receives your approximate location or ZIP code to return nearby food-resource listings.</li>
+    <li><strong>Google AdMob</strong> — serves the optional rewarded ads on the free tier and may collect device/advertising identifiers as described above.</li>
+    <li><strong>RevenueCat</strong> — manages subscription status and entitlements for NutriScan Pro.</li>
     <li><strong>Twilio SendGrid</strong> — sends transactional emails on our behalf, such as password-reset codes.</li>
-    <li><strong>MongoDB Atlas</strong> — securely stores your account and app data.</li>
+    <li><strong>MongoDB Atlas</strong> — securely stores your account and app data [region: CONFIRM].</li>
     <li><strong>Render</strong> — hosts the application's backend.</li>
   </ul>
   <p>These providers process data on our behalf under their own security and privacy commitments. We may also disclose information if required by law or to protect the rights, safety, and security of our users and the service.</p>
- 
+
   <h2>Data retention and deletion</h2>
-  <p>We keep your account and meal data for as long as your account is active. You can <strong>delete your account at any time</strong> from within the app (Profile &rarr; account settings). Deleting your account removes your associated data from our database. You may also contact us at <a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a> to request deletion.</p>
- 
+  <p>We keep your account, meal, and diabetes data for as long as your account is active. You can <strong>delete your account at any time</strong> from within the app (Profile &rarr; account settings). Deleting your account removes your associated data — including your glucose, insulin, and meal logs — from our database. You may also contact us at <a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a> to request deletion. [State your backup retention window if data persists in backups after deletion.]</p>
+
   <h2>How we protect your information</h2>
   <ul>
     <li>All data is transmitted over encrypted connections (HTTPS).</li>
     <li>Passwords are stored only as secure one-way hashes, never in plain text.</li>
     <li>Access to stored data is restricted to operating the service.</li>
+    <li>[State whether stored data is encrypted at rest.]</li>
   </ul>
   <p>No method of transmission or storage is completely secure, but we work to protect your information using reasonable safeguards.</p>
- 
+
   <h2>Your choices and rights</h2>
-  <p>You can review and update your profile information in the app, and delete your account and data at any time. Depending on where you live, you may have additional rights to access, correct, or delete your personal information, or to object to certain processing. To exercise these rights, contact us at <a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a>.</p>
- 
+  <p>You can review and update your profile information in the app, and delete your account and data at any time. You can revoke Apple Health access in iOS Settings &rarr; Health, and manage ad preferences through your device settings. Depending on where you live, you may have additional rights to access, correct, or delete your personal information, or to object to certain processing (for example under GDPR/UK GDPR or CCPA/CPRA — note that we do not sell personal information). To exercise these rights, contact us at <a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a>.</p>
+
+  <h2>Medical disclaimer</h2>
+  <p>NutriScan is a logging and educational tool. Carbohydrate and nutrition values are AI-generated estimates and may be inaccurate. The app does <strong>not</strong> calculate, recommend, or adjust insulin doses and is not a medical device. Always confirm carb counts and all treatment decisions with your healthcare provider.</p>
+
   <h2>Children's privacy</h2>
-  <p>NutriScan is not directed to children under 13 (or the minimum age required in your region), and we do not knowingly collect personal information from them. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
- 
+  <p>NutriScan is intended for users 16 and older and is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+
   <h2>Changes to this policy</h2>
   <p>We may update this policy from time to time. When we do, we will revise the “Last updated” date above. Significant changes will be reflected here, and your continued use of the app means you accept the updated policy.</p>
- 
+
   <h2>Contact us</h2>
   <div class="contact">
     <p style="margin:0 0 6px;">Questions about this policy or your data?</p>
     <p style="margin:0;"><a href="mailto:nutriscan.support.help@gmail.com">nutriscan.support.help@gmail.com</a></p>
   </div>
- 
+
   <footer>© 2026 NutriScan · Nuv Ahuja</footer>
 </div>
 </body>
