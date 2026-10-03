@@ -119,7 +119,7 @@
   <p>NutriScan offers an optional <strong>NutriScan Pro</strong> subscription. Purchases are processed by Apple, and subscription status is managed through our payments provider (RevenueCat). We receive your subscription status and related identifiers — not your payment card details, which are handled by Apple.</p>
 
   <h3>Advertising data</h3>
-  <p>On the free tier, you can choose to watch a <strong>rewarded video ad</strong> to unlock a day of Pro features. These ads are served by Google AdMob, which may collect device and advertising identifiers and basic device information to deliver and measure ads. We use <strong>non-personalized</strong> ads.</p>
+  <p>Rewarded video ads and ad-supported Pro access are <strong>disabled in the current release</strong>. NutriScan does not request or initialize rewarded ads in this release. The app includes an AdMob integration for a possible future opt-in offer; before enabling it, we will update this policy and the App Store privacy disclosures to explain any device or advertising data the provider may collect.</p>
 
   <h3>Technical information</h3>
   <p>Like most apps, our servers automatically receive basic technical information (such as connection data) needed to operate the service securely and reliably.</p>
@@ -137,7 +137,7 @@
     <li>To save and sync your meals, carbs, glucose, insulin, and site/sensor logs across your devices.</li>
     <li>To help you find food resources near you when you use the Care Center.</li>
     <li>To answer questions or create nutrition summaries, recipes, and label reviews that you explicitly request, using the limited content described below.</li>
-    <li>To process and verify your NutriScan Pro subscription, and to grant a one-time ad-supported Pro day if you choose it.</li>
+    <li>To process and verify your NutriScan Pro subscription. Ad-supported Pro access is disabled in the current release.</li>
     <li>To send account-related emails, such as password-reset codes.</li>
     <li>To maintain, protect, and improve the reliability and security of the app.</li>
   </ul>
@@ -165,7 +165,7 @@
     <li><strong>Google (Gemini API)</strong> — receives the feature-specific photos, questions, manually logged summaries, meal details, and preferences described in the AI section above when you choose those features. Apple's HealthKit-imported readings are excluded from Gemini requests.</li>
     <li><strong>Google Maps Platform (Places)</strong> — receives your device coordinates or ZIP code and search terms to return nearby food-resource listings.</li>
     <li><strong>Apple and Google sign-in</strong> — process authentication when you choose one of those sign-in methods and return the identity information needed for your NutriScan account.</li>
-    <li><strong>Google AdMob</strong> — serves the optional rewarded ads on the free tier and may collect device/advertising identifiers as described above.</li>
+    <li><strong>Google AdMob</strong> — the integration is present but rewarded ads are disabled in the current release. If an opt-in offer is enabled in a future build, its data handling will be disclosed before rollout.</li>
     <li><strong>Apple and RevenueCat</strong> — Apple processes App Store purchases; RevenueCat manages subscription status and entitlements for NutriScan Pro.</li>
     <li><strong>Twilio SendGrid</strong> — sends transactional emails on our behalf, such as password-reset codes.</li>
     <li><strong>MongoDB Atlas</strong> — securely stores your account and app data.</li>
